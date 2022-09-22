@@ -85,7 +85,9 @@ const updateUser = (req, res, next) => {
       res.send(user);
     })
     .catch((e) => {
-      if (e.name === 'ValidationError') {
+      if (e.code === 11000) {
+        next(new Conflicted('Такой пользователь уже существует'));
+      } else if (e.name === 'ValidationError') {
         next(new BadRequest('Переданы некорректные данные при обновлении профиля'));
       } else {
         next(e);
