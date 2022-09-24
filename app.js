@@ -8,6 +8,7 @@ const limiter = require('./middlewares/rateLimit');
 const router = require('./routes/index');
 const errorHandler = require('./middlewares/errorHandler');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
+const { MONGO_URL_DEV } = require('./utils/constants');
 
 const { NODE_ENV, MONGO_URL } = process.env;
 
@@ -15,7 +16,7 @@ const { PORT = 3000 } = process.env;
 
 const app = express();
 
-mongoose.connect(NODE_ENV === 'production' ? MONGO_URL : 'mongodb://localhost:27017/moviesdb');
+mongoose.connect(NODE_ENV === 'production' ? MONGO_URL : MONGO_URL_DEV);
 
 app.use(express.json());
 

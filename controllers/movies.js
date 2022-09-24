@@ -47,7 +47,7 @@ const createMovie = (req, res, next) => {
         next(e);
       }
     });
-};//
+};
 
 const deleteMovie = (req, res, next) => {
   Movie.findById(req.params.movieId)
