@@ -1,6 +1,6 @@
 const allowedCors = [
-  'http://domainname.andrey.nomoredomains.sbs',
-  'https://domainname.andrey.nomoredomains.sbs',
+  'http://movies-explorer-nikolaev.nomoredomains.icu',
+  'https://movies-explorer-nikolaev.nomoredomains.icu',
   'http://localhost:3000',
   'https://localhost:3000',
 ];
