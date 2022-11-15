@@ -18,18 +18,26 @@
 + Центральная обработка ошибок
 + Валидация входящих данных
   
-### Подготовка и запуск проекта
+## Установка и запуск проекта:
+Клонировать репозиторий:
 
-`npm i` — установка зависимостей
+    git clone https://github.com/Andryuha-Nikolaev/movies-explorer-api.git
 
-`mongod` — запускает mongodDB
+Установить зависимости:
 
-`npm run start` — запускает сервер
+    npm install
 
-`npm run dev` — запускает сервер с hot-reload
+Запустить сервер:
 
-`npm run lint` — запускает линтер
+    npm run start
+
+Запустить сервер с hot-reload:
+
+    npm run dev
+
+## Чеклист:
+- [Критерии диплома веб-разработчика](https://code.s3.yandex.net/web-developer/static/new-program/web-diploma-criteria-2.0/index.html)
+
 
 Публичный IP-адрес сервера - 51.250.85.245
-
 Домен сервера - https://api.movies-explorer.nomorepartiesxyz.ru
