@@ -38,6 +38,6 @@
 ## Чеклист:
 - [Критерии диплома веб-разработчика](https://code.s3.yandex.net/web-developer/static/new-program/web-diploma-criteria-2.0/index.html)
 
-## Адрес сервера:
+## Ссылки:
 Публичный IP-адрес сервера - 51.250.85.245
 Домен сервера - https://api.movies-explorer.nomorepartiesxyz.ru
