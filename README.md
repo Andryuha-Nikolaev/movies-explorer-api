@@ -19,19 +19,13 @@
 + Валидация входящих данных
   
 ## Установка и запуск проекта:
-Клонировать репозиторий:    git clone https://github.com/Andryuha-Nikolaev/movies-explorer-api.git
+Клонировать репозиторий: `git clone https://github.com/Andryuha-Nikolaev/movies-explorer-api.git`
 
-Установить зависимости:
+Установить зависимости: `npm install`
 
-    npm install
+Запустить сервер: `npm run start`
 
-Запустить сервер:
-
-    npm run start
-
-Запустить сервер с hot-reload:
-
-    npm run dev
+Запустить сервер с hot-reload: `npm run dev`
 
 ## Чеклист:
 - [Критерии диплома веб-разработчика](https://code.s3.yandex.net/web-developer/static/new-program/web-diploma-criteria-2.0/index.html)
